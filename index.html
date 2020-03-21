@@ -11,17 +11,38 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script  src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
         
-        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 
     </head>
     <body>
-        <!--Navigation bar-->
+
         <div id="nav-placeholder"></div>
-        <script src="nav.js"></script>
+                
+        <header class="header container-fluid">
+            <div class="row">
+                <div class="header__content col-lg-6 col-md-6 col-sm-12">
+                    <h1>Hey, I'm Joe.</h1>
+                    <p>I'm a passionate self-taught front-end web developer from Blacksburg, Virginia.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="border: 1px solid;">
+                    <img class="header__img" src="images/profile_edited.jpg" alt="Joe Liang">
+                </div>
+            </div>
+        </header>
         
-        
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>About</h2>
+                    <p></p>
+                </div>
+            </div>
+        </section>
         
         <!--Place Bootstrap JS instead of <head> to avoid error of fn property not defined-->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <script src="js/nav.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
