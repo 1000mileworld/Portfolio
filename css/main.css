@@ -24,7 +24,7 @@ html {
   }
 
 /*--- header ---*/
-.header {
+header {
     text-align: center;
     border: 2px green solid;
 }
@@ -36,6 +36,32 @@ html {
     width: 80%;
     height: auto;
     margin: 10% auto;
+}
+
+/*--- intro ---*/
+.intro{
+  padding: 1em;
+  top: 1em;
+}
+.intro__services{
+  font-weight: 700;
+}
+.intro__hire{
+  text-align: center;
+  font-size: 2rem;
+}
+.intro__contact{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+/*--- footer ---*/
+footer{
+  text-align: center;
+  border-top: solid;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 @media (min-width: 1200px) { 
