@@ -4,9 +4,12 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body{
+  font-size: 1.3rem;
+}
 /*--- navigation bar ---*/
 .navbar {
-    background:#6ab446;
+    background: hsl(15, 100%, 20%);
   }
   .nav-link,
   .navbar-brand {
@@ -25,17 +28,22 @@ html {
 
 /*--- header ---*/
 header {
-    text-align: center;
-    border: 2px green solid;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, hsl(15, 100%, 20%) , hsl(15, 100%, 95%));
+  
 }
 .header__content {
-    margin: auto;
-    border: 1px solid;
+  text-align: left;
+  margin: auto;
+  max-width: 800px;
+}
+.header__content p{
+  font-size: 2rem;
 }
 .header__img {
-    width: 80%;
-    height: auto;
-    margin: 10% auto;
+  width: 80%;
+  height: auto;
+  margin: 10% auto;
 }
 
 /*--- intro ---*/
@@ -62,6 +70,8 @@ footer{
   border-top: solid;
   padding-top: 2.5em;
   padding-bottom: 2.5em;
+  background-color: black;
+  color: hsl(0, 0%, 70%);
 }
 
 @media (min-width: 1200px) { 
