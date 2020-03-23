@@ -104,6 +104,10 @@ header p{
   color: hsl(15, 100%, 40%);
   text-decoration: none;
 }
+.intro__contact:hover{
+  transform: scale(1.025);
+  transition: all 0.25s ease;
+}
 
 /*--- footer ---*/
 footer{
