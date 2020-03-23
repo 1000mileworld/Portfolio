@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+:root {
+  --theme-color: hsl(15, 100%, 20%);
+}
 html {
   box-sizing: border-box;
 }
@@ -6,10 +14,17 @@ html {
 }
 body{
   font-size: 1.3rem;
+  font-family: 'Ovo', serif;
+  line-height: 2.5rem;
 }
 /*--- navigation bar ---*/
 .navbar {
-    background: hsl(15, 100%, 20%);
+    background: var(--theme-color);
+    font-size: 1.5rem;
+  }
+  .navbar-brand{
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
   }
   .nav-link,
   .navbar-brand {
@@ -29,49 +44,75 @@ body{
 /*--- header ---*/
 header {
   text-align: center;
-  background-image: linear-gradient(to bottom right, hsl(15, 100%, 20%) , hsl(15, 100%, 95%));
-  
+  background-image: linear-gradient(to bottom right, hsl(15, 100%, 25%) , hsl(15, 100%, 95%));
+  font-family: 'Lusitana', serif;
+}
+header h1{
+  margin-top: 20px;
+  font-weight: 900;
+  color: hsl(15, 100%, 83%);
+}
+header p{
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  font-weight: 550;
+  color: hsl(15, 100%, 15%);
 }
 .header__content {
   text-align: left;
   margin: auto;
   max-width: 800px;
 }
-.header__content p{
-  font-size: 2rem;
-}
 .header__img {
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 10% auto;
+  
 }
 
 /*--- intro ---*/
 .intro{
   padding: 1em;
-  top: 1em;
+}
+.intro h2{
+  color: var(--theme-color);
+  margin: 1.2em auto;
+}
+.intro a{
+  color:  hsl(15, 100%, 30%);
 }
 .intro__services{
   font-weight: 700;
+  color: hsl(15, 100%, 30%);
 }
 .intro__hire{
   text-align: center;
   font-size: 2rem;
+  color: var(--theme-color);
+  font-weight: 700;
 }
 .intro__contact{
+  width: 250px;
+  font-size: 1.8rem;
   text-align: center;
-  margin-top: 2em;
-  margin-bottom: 3em;
+  font-family: 'Righteous', cursive;
+  padding: 20px;
+  border: 2px solid hsl(15, 100%, 30%);
+  margin: 2em auto 3em auto;
+  border-radius: 10%;
+}
+.intro__contact a{
+  color: hsl(15, 100%, 40%);
+  text-decoration: none;
 }
 
 /*--- footer ---*/
 footer{
   text-align: center;
   border-top: solid;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
-  background-color: black;
-  color: hsl(0, 0%, 70%);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: var(--theme-color);
+  color: hsl(0, 0%, 80%);
 }
 
 @media (min-width: 1200px) { 
