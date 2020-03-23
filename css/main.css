@@ -40,6 +40,15 @@ body{
   .navbar-collapse {
     justify-content: flex-end;
   }
+a.nav-link:hover{
+  color: hsl(24, 100%, 65%);
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+a.navbar-brand:hover{
+  color: hsl(24, 100%, 65%);
+  transition: all 0.3s ease
+}
 
 /*--- header ---*/
 header {
@@ -100,15 +109,21 @@ header p{
   margin: 2em auto 3em auto;
   border-radius: 10%;
 }
-.intro__contact a{
-  color: hsl(15, 100%, 40%);
-  text-decoration: none;
-}
 .intro__contact:hover{
   transform: scale(1.025);
   transition: all 0.25s ease;
 }
-
+.intro__contact a{
+  color: hsl(15, 100%, 40%);
+  text-decoration: none;
+}
+.intro__contact a:hover{
+  color: hsl(15, 100%, 60%);
+}
+.slide-right{
+  margin-left: 5px;
+  transition: all 0.3s ease-in;
+}
 /*--- footer ---*/
 footer{
   text-align: center;

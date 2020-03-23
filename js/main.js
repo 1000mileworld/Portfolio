@@ -1,6 +1,8 @@
-// $(document).ready(function(){
-//     let navHeight = $("nav").height();
-//     //console.log(navHeight);
-//     let 
-//     $("header").css({height: `calc(100vh-${navHeight})`})
-// });
+$(document).ready(function(){
+    $(".navbar-brand").hover(function(){
+        $(this).toggleClass("pulse");
+    });
+    $(".intro__contact").hover(function(){
+        $("#arrow").toggleClass("slide-right")
+    })
+});
