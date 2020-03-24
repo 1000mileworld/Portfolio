@@ -15,5 +15,5 @@ anime.timeline()
     opacity: [0,1],
     translateY: [20, 0],
     easing: 'easeInOutSine',
-    duration: 800
+    duration: 1000
   })
