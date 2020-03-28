@@ -133,12 +133,12 @@
     width: 10px;
     height: 10px;
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    border: 1px solid rgb(255, 153, 51);
     border-radius: 10px;
   }
   
   .carousel-indicators li.active {
-    background-color: #FFFFFF;
+    background-color: var(--theme-color);
   }
 
   /*------------------Media queries---------------------------*/

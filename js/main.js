@@ -17,5 +17,3 @@ $(document).ready(function(){
         $(".arrow.right").toggleClass("arrow-hover");
     });
 });
-
-//.carousel-control.left
