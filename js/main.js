@@ -20,4 +20,13 @@ $(document).ready(function(){
     $(".project__img").hover(function(){
         $(this).toggleClass("project__img--hover");
     })
+
+    //smooth scrolling to anchor links
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+    
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
 });
