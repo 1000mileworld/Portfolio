@@ -16,4 +16,8 @@ $(document).ready(function(){
         $(this).toggleClass("control-hover");
         $(".arrow.right").toggleClass("arrow-hover");
     });
+
+    $(".project__img").hover(function(){
+        $(this).toggleClass("project__img--hover");
+    })
 });

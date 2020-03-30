@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin: 2rem auto;
+    margin: var(--line--spacing) auto;
     line-height: 28px;
     padding: 20px 30px;
 }
@@ -27,16 +27,23 @@
     width: 100%;
     height: auto;
 }
+.project__img--hover{
+    border: 2px solid hsl(15, 100%, 40%);
+    opacity: 0.9;
+}
 .project__description > h2{
     margin-bottom: var(--line--spacing);
     color: var(--theme-color);
 }
 .project__tech{
-    margin-top: var(--line--spacing);
+    margin: var(--line--spacing) 0;
 }
 .project__tech--bold{
     font-weight: 700;
     color: hsl(15, 100%, 30%);
+}
+.project__icons{
+    text-align: center;
 }
 
 @media (max-width: 1023px) { 
