@@ -17,6 +17,12 @@ body{
   font-family: 'Ovo', serif;
   line-height: 2.5rem;
 }
+a{
+  color:  hsl(15, 100%, 30%);
+}
+a:hover{
+  color:  hsl(15, 100%, 40%);
+}
 /*--- navigation bar ---*/
 .navbar {
     background: var(--theme-color);
@@ -85,9 +91,6 @@ header p{
 .intro h2{
   color: var(--theme-color);
   margin: 1.2em auto;
-}
-.intro a{
-  color:  hsl(15, 100%, 30%);
 }
 .intro__services{
   font-weight: 700;
