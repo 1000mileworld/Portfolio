@@ -111,10 +111,10 @@ header p{
   border: 2px solid hsl(15, 100%, 30%);
   margin: 2em auto 3em auto;
   border-radius: 10%;
+  transition: all 0.3s ease;
 }
 .intro__contact:hover{
   transform: scale(1.025);
-  transition: all 0.25s ease;
 }
 .intro__contact a{
   color: hsl(15, 100%, 40%);
