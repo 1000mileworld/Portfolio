@@ -11,11 +11,17 @@
   }
 .btn {
     color: white;
-    margin-bottom: 2rem;
+    display:inline-table;
+    padding: 0.5rem 1.1rem;
+    margin: auto 0.2rem 2rem;
 }
 .btn__text {
     position: relative;
-    bottom: 100%;
+    left: 5px;
+    display:table-cell;
+    vertical-align:middle;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 .btn__twitter {
     background: rgb(0, 172, 237);
@@ -32,7 +38,6 @@ form {
 }
 
 .feedback-input {
-  color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
@@ -61,7 +66,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:hsl(15, 100%, 25%);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -75,7 +80,7 @@ textarea {
 }
 
 [type="submit"]:hover {
-    background: var(--theme-color);
+    background: hsl(15, 100%, 30%);
 }
 
 @media (min-width: 1200px){
