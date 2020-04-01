@@ -15,6 +15,9 @@
     padding: 0.5rem 1.1rem;
     margin: auto 0.2rem 2rem;
 }
+.btn:hover {
+    opacity: 0.9;
+}
 .btn__text {
     position: relative;
     left: 5px;
