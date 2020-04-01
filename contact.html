@@ -27,10 +27,10 @@
             <p>If you want to get in touch, talk about collaborating on a project, or just say hi, fill out the form below or send an email to <a href="mailto: joe@1000mileworld.com">joe@1000mileworld.com</a>. Let's talk &#128512;</p>
             
             <form method="POST" action="contact-form.php">      
-                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
-                <input type="submit" value="SUBMIT"/>
+                <input name="name" type="text" class="feedback-input" placeholder="Name" autofocus tabindex="1" required/>   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" tabindex="2" required/>
+                <textarea name="message" class="feedback-input" placeholder="Message" tabindex="3" required></textarea>
+                <input type="submit" value="SUBMIT" tabindex="4"/>
             </form>
 
             <h2>Get Social</h2>
